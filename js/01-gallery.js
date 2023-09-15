@@ -29,7 +29,6 @@ const changeSize = (e) => {
 
     const currentListItem = e.target;
     const currentListItemPreview = currentListItem.dataset.source;
-     const chosenImgSource = currentListItem.getAttribute("data-source");
     const galleryItem = galleryItems.find((item) => item.preview === currentListItemPreview);
 
     const modalInstance = basicLightbox.create(
